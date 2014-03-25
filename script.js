@@ -34,21 +34,22 @@ $(document).ready(function() {
         if ( currentQuestion < (noOfQuestions -1) ) {
             if (checkAnswer()) {
                 currentQuestion++;
-                displayQA();
+                $('#content').fadeOut(500, function() {displayQA()});
+                
             }
             else {
                 $('#warning').slideDown('fast');       
             }
         }
         else if (currentQuestion === (noOfQuestions - 1)) {
-            displayResult();
+            $('#content').fadeOut(500, function() {displayResult()});
         }
     });
     
     $('#back').click(function() {
         if ( currentQuestion >= 0 ) {
             currentQuestion--;
-            displayQA();
+            $('#content').fadeOut(500, function() {displayQA()});
         }
     });
 });
