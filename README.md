@@ -1,6 +1,6 @@
-# JavsScript is Sexy - Quiz
+# JavsScript Quiz
 
-A quiz application written in HTML/CSS and JavaScript as part of an exercise in the Learn JavaScript Properly course at - http://javascriptissexy.com/how-to-learn-javascript-properly/.
+A quiz application written in HTML/CSS.
 
 ## Changelog
 
